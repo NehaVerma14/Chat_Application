@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iChat</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/9f226a5767.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container clearfix">
+      <div class="class-sidebar">
+        <div class="chat-header">
+          <h2><i class="fas fa-comment"></i> iChat</h2>
+        </div>
+        <div class="Room">
+          <i class="fas fa-laptop-house"></i> Room
+          <ul>
+            <li><img src="./3408536-fairytale/png/040-magic mirror.png" alt="">Javascript</li>
+          </ul>
+        </div>
+        <div class="Users">
+          <i class="fas fa-users"></i> Users
+          <ul class="list">
+            <li class="clearfix">
+              <img src="./3408536-fairytale/png/011-queen.png" alt="" />
+                <div class="name">Neha</div>
+            </li>
+            <li class="clearfix">
+              <img src="./3408536-fairytale/png/029-white rabbit.png" alt="" />
+                <div class="name">Aarush</div>
+            </li>
+            <li class="clearfix">
+              <img src="./3408536-fairytale/png/016-fairy.png" alt="" />
+              <div class="name">Aarati</div>
+            </li>
+            <li class="clearfix">
+              <img src="./3408536-fairytale/png/017-robin hood.png" alt="" />
+                <div class="name">Amar</div>  
+            </li>
+            <li class="clearfix">
+              <img src="./3408536-fairytale/png/008-gnome.png" alt="" />
+                <div class="name">Nabin</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!--end of chat sidebar-->
+        <div class="chat">
+          <img src="./icons8-night-wind-100.png" alt="">
+          <div class="chatroom">
+            <u><i>Javascript</i></u></div>
+          <div class="chat-button">
+            
+            <button type="button" class="btn btn-info"> <i class="fa fa-exchange" aria-hidden="true"></i> Switch Room</button>
+              <button type="button" class="btn btn-info"><i class="fas fa-sign-out-alt"></i> Leave Room</button> 
+          </div>
+        </div>
+          
+          <div class="chat-history">
+            <div>
+              <div class="clearfix">
+                <div class="message-data align-left">
+                  <i class="fas fa-circle me"></i
+                  ><span class="message_name">Neha</span>
+                  <span class="message_time">10:00 am, Today</span> &nbsp;&nbsp;
+                </div>
+                <div class="message my_message float-left">Hello, How are you?</div>
+              </div>
+             
+                
+                  <div class="clearfix">
+                  <div class="message-data align-right">
+                
+                    <span class="message_time">10:05 am, Today</span> &nbsp;
+                    <span class="message_name">Aarati</span> <i class="fas fa-circle others"></i>
+                     &nbsp;
+                    </div>
+                    <div class="message other_message float-right">I am good</div>
+                
+          </div>
+              
+           
+              <div class="clearfix">
+                <div class="message-data align-left">
+                  <i class="fas fa-circle me"></i
+                  ><span class="message_name">Neha</span>
+                  <span class="message_time">10:35 am, Today</span> &nbsp;&nbsp;
+                </div>
+                <div class="message my_message float-left">It's almost done</div>
+             
+            </div>
+         
+        
+          <div class="clearfix">
+            <div class="message-data align-right">
+                
+              <span class="message_time">10:40 am, Today</span> &nbsp;
+              <span class="message_name">Nabin</span> <i class="fas fa-circle others"></i>
+               
+              </div>
+              <div class="message other_message float-right">How much project has been completed?</div>
+          </div >
+            </div>
+            <div class="clearfix">
+              <div class="message-data align-right">
+                  
+                <span class="message_time">10:45 am, Today</span> &nbsp;
+                <span class="message_name">Aarush</span> <i class="fas fa-circle others"></i>
+                 
+                </div>
+                <div class="message other_message float-right">Let's discuss on Discord</div>
+            </div >
+            
+            <div>
+              <i class="fa fa-circle online" style="color: aquamarine; font-size: 10px;" ></i>
+              <i class="fa fa-circle online" style="color: #8cd4e0; font-size: 10px;"></i>
+              <i class="fa fa-circle online" style="color: #1bc7c7;; font-size: 10px;"></i>
+              <span class="message_name"> Amar is Typing</span>
+            </div>
+              </div>
+          <!--End of chat-box-->
+          <div class="chat-message clearfix">
+            <input type="text" name="message-to-send" id="message-to-send" placeholder ="Enter message" rows="3"></input>
+            <div><button type="submit" class="btn btn-success"><i class="fas fa-paper-plane"></i> Send</button>
+          </div>
+        </div>
+        </div>
+        
+      </div>
+   
+  </body>
+</html>

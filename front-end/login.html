@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iChat</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/9f226a5767.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-11 header">
+            <h2><i class="fas fa-comment"></i> iChat</h2>
+            <div class="row">
+              <div class="col-md-12 login-form">
+                <div class="form-group">
+                  <i class="fas fa-user"></i>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="UserName"
+                  />
+                </div>
+                <div class="form-group">
+                  <i class="fas fa-lock"></i>
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="form-group">
+                  <i class="fas fa-smile"></i>
+                  <select class="form-control">
+                    <option class="hidden" selected disabled>
+                      Please Select your Room
+                    </option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="C++">C++</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="Ruby">Ruby</option>
+                  </select>
+                </div>
+                <button type="button" class="btn btn-info">
+                  <i class="fas fa-sign-in-alt"></i> Enter Room
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
